@@ -13,7 +13,7 @@
         \vspace*{1cm}
             
         \Huge
-        \textbf{Taller Memoria }
+        \textbf{Proyecto de investigación }
             
         \vspace{0.5cm}
         \LARGE
@@ -44,17 +44,17 @@
 \tableofcontents
 
 \section{Memoria del Computador}
-	La memoria del computador es un dispositivo de alta relevancia, que tiene la capacidad de almacenar temporalmente, toda la información (datos)  y  las instrucciones necesarias que serán procesadas o ejecutadas. Usualmente se utiliza el término para referirse a dispositivos de almacenamiento temporal y alta velocidad de acceso, como lo es la memoria principal del computador.
+	La memoria del computador es un dispositivo de alta relevancia, que tiene la capacidad de almacenar temporalmente, toda la información (datos)  y  las instrucciones necesarias que serán procesadas o ejecutadas. Usualmente se utiliza el término para referirse a dispositivos de almacenamiento temporal y alta velocidad de acceso, como lo es la memoria principal del computador.\cite{ecuredwebsite}
 
 \section{Tipos de memoria } \label{contenido}
-MEMORIA RAM ( Random Access Memory) : es la memoria más importante del computador, está dividido en celdas de memoria donde se almacenan los bits , a los cuales  se acceder directamente sin importar su posición o dirección.
+MEMORIA RAM ( Random Access Memory) : es la memoria más importante del computador, está dividido en celdas de memoria donde se almacenan los bits , a los cuales  se acceder directamente sin importar su posición o dirección.\cite{tecdwebsite}
 	
 \vspace{0.5cm}
-MEMORIA ROM (Read Only Memory): Esta memoria es de solo lectura, es decir, no se puede escribir en ella. Esta memoria es imprescindible para el funcionamiento del ordenador y contiene instrucciones y datos técnicos de los distintos componentes del ordenador.
+MEMORIA ROM (Read Only Memory): Esta memoria es de solo lectura, es decir, no se puede escribir en ella. Esta memoria es imprescindible para el funcionamiento del ordenador y contiene instrucciones y datos técnicos de los distintos componentes del ordenador.\cite{gestionwebsite}
     
 \vspace{0.5cm}
 
-MEMORIA CACHE: cumple la función de almacenar direcciones concretas o extensiones del programa o programas en ejecución; además se utiliza para trabajar con los datos e instrucciones que el microprocesador ve que se utilizan con mayor regularidad
+MEMORIA CACHE: cumple la función de almacenar direcciones concretas o extensiones del programa o programas en ejecución; además se utiliza para trabajar con los datos e instrucciones que el microprocesador ve que se utilizan con mayor regularidad.
 
 \vspace{0.5cm}
 
@@ -66,34 +66,22 @@ DISCO DURO: Es un dispositivo de almacenamiento de datos no volátil, que contie
 
 \vspace{0.5cm}
 
-lo indican las reglas de la RAE. \cite{dirac}
+\section{Gestión de la memoria en un computador} \label{contenido}
 
-\begin{lstlisting}
-#include <stdio.h>
-#define N 10
-/* Block
- * comment */
+3.	Al realizar cualquier tipo de acción en el computador, la memoria cumple un papel fundamental en todo momento que se procesan y almacenan los datos; la cual está en constante interacción con el microprocesador y los controladores a través del bus que es por donde viaja la información.
 
-int main()
-{
-    int i;
+\vspace{0.5cm}
 
-    // Line comment.
-    puts("Hello world!");
-    
-    for (i = 0; i < N; i++)
-    {
-        puts("LaTeX is also great for programmers!");
-    }
+Al momento de enviar una orden (que se traduce a una instrucción) a través de un periférico de entrada, esta viaje en forma de pulsos eléctricos por el bus de instrucciones y  llega hasta la memoria, colocándose temporalmente en un espacio de la misma. Por consiguiente el microprocesador recibe el aviso de que existe una nueva instrucción en memoria para ser leída; esta instrucción pueden ser: abrir o cerrar un programa, cargar o guardar un archivo, etc, estos los archivos y programas generalmente se encuentran en el disco duro. Al momento de ser ejecutada la instrucción se elimina tanto del procesador como de la memoria, para que dicho espacio que ya no se utiliza, esté disponible para otra información. De esta manera el microprocesador le envía la orden a un controlador especial ubicado en la placa madre. Dicho controlador toma la aplicación o el archivo, que está almacenada en el disco duro y la lleva hasta la memoria, de forma fragmentada colocándola en un espacio vacío de la misma trayéndolos y llevándolos una y otra vez del procesador a la memoria y viceversa. Debido a que el microprocesador no posee espacio suficiente de almacenamiento para el manejo de la información. Una vez que se encuentra cargado en memoria y funcionando, el microprocesador utiliza los  recursos para poder realizar el  procesamiento indicado. 
 
-    return 0;
-}
-\end{lstlisting}
+\vspace{0.5cm}
+
+Vale resaltar que en este proceso descrito anteriormente se repite para miles de instrucciones, procesamientos de datos en el microprocesador así como millones de transferencias de porciones de datos entre la memoria y el microprocesador, las cuales se irán traduciendo a texto modificado acorde a las necesidades del usuario.
+
+\vspace{0.5cm}
 
 
-En la sección de teoremas (\ref{contenido})
-
-\section{Conclusión} \label{conclulsion}
+\section{Jerarquía según velocidad de la memoria} \label{contenido}
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
