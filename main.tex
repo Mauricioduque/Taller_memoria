@@ -43,6 +43,8 @@
 
 \tableofcontents
 
+\section{Introducción}
+
 \section{Memoria del Computador}
 	La memoria del computador es un dispositivo de alta relevancia, que tiene la capacidad de almacenar temporalmente, toda la información (datos)  y  las instrucciones necesarias que serán procesadas o ejecutadas. Usualmente se utiliza el término para referirse a dispositivos de almacenamiento temporal y alta velocidad de acceso, como lo es la memoria principal del computador.\cite{ecuredwebsite}
 
@@ -68,7 +70,7 @@ DISCO DURO: Es un dispositivo de almacenamiento de datos no volátil, que contie
 
 \section{Gestión de la memoria en un computador} \label{contenido}
 
-3.	Al realizar cualquier tipo de acción en el computador, la memoria cumple un papel fundamental en todo momento que se procesan y almacenan los datos; la cual está en constante interacción con el microprocesador y los controladores a través del bus que es por donde viaja la información.
+Al realizar cualquier tipo de acción en el computador, la memoria cumple un papel fundamental en todo momento que se procesan y almacenan los datos; la cual está en constante interacción con el microprocesador y los controladores a través del bus que es por donde viaja la información.
 
 \vspace{0.5cm}
 
@@ -82,6 +84,25 @@ Vale resaltar que en este proceso descrito anteriormente se repite para miles de
 
 
 \section{Jerarquía según velocidad de la memoria} \label{contenido}
+La jerarquía de una memoria a partir de su velocidad, se caracteriza por el tiempo y el proceso que realiza la memoria para acceder a la información, permitiendo mayor rendimiento en la computadora; es por esto que  el disco duro, se considera la memoria más lenta, debido a la mecánica de su funcionamiento, puesto que para acceder a la información depende de la velocidad de rotación de los discos que tiene adentro, donde un motor mecánico, en conjunto con un electroimán, mueven un cabezal rotativo sobre el que descansan los platos magnéticos en los que se graban los datos que se van a almacenar (sistema operativo, documentos, música, etc.).\cite{comwebsite}
+
+\vspace{0.5cm}
+
+Mientras que un módulo de memoria es más veloz, ya que permite acceder a la información almacenada temporalmente en él en lapsos de tiempo de nanosegundos, a su vez la velocidad depende del reloj del bus que conecta la memoria con el microprocesador.
+
+\vspace{0.5cm}
+
+Hablando específicamente de la memoria RAM que  está dividida en celdas en donde se almacenan temporalmente cada uno de los bits que componen los bytes de la información con la que trabaja el microprocesador. Se encuentra formada por un transistor y un capacitor. Mientras los capacitores sostienen los bits de información, los transistores actúan como interruptores que permiten a su controlador de memoria leer o modificar la información (los bits) que contienen cada una de las celdas de bits distribuidas en una grilla bidimensional en una matriz de columnas y filas, la intersección de una columna y una fila determinan la dirección de una celda de memoria.
+
+\vspace{0.5cm}
+
+No obstante existe una memoria  de mayor velocidad que la RAM y es la memoria Cache, el objetivo principal de la caché es aumentar el desempeño de recuperación de datos para evitar tener que acceder a la capa subyacente de almacenamiento, que es más lenta. Al intercambiar capacidad por velocidad, una memoria caché normalmente almacena un subconjunto de datos de forma transitoria, a diferencia de las bases de datos cuyos elementos suelen ser completos y duraderos. Cuando una aplicación intenta leer datos, generalmente de un sistema de almacenamiento de datos como una base de datos, verifica si el registro deseado ya existe en la memoria caché. Si existe, esa aplicación leerá los datos del caché, evitando que el acceso a la base de datos sea más lento. Si el registro deseado no está en la memoria caché, la aplicación lee el registro de la fuente. Cuando recupera esos datos, también los escribe en el caché para que cuando la aplicación necesite esos mismos datos en el futuro, pueda obtenerlos rápidamente del caché.
+
+\vspace{0.5cm}
+
+Por último es importante resaltar que a medida que aumenta la velocidad de la memoria, disminuye su capacidad de almacenamiento, convirtiendo en el disco duro la memoria  con mayor capacidad de almacenamiento y la cache con la menor capacidad.
+
+\section{Conclusión}
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
